@@ -1,0 +1,24 @@
+{% extends "Dais/layout/base.html" %}
+{% block title %}
+Login
+{% endblock title %}
+
+{% block content %}
+    {% include "Dais/partials/header.html" %}
+    <div class="flex flex-col justify-center items-center mx-auto p-8 mt-4 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-semibold mb-6">Login</h2>
+        <form>
+            <div class="mb-4">
+                <label for="email" class="label">Email:</label>
+                <input type="email" name="email" class="input input-bordered w-full" placeholder="example@example.com">
+            </div>
+            <div class="mb-4">
+                <label for="password" class="label">Password:</label>
+                <input type="password" name="password" class="input input-bordered w-full" placeholder="Enter password">
+            </div>
+            <button type="submit" class="btn bg-purple-600 text-white w-full rounded-full">Login</button>
+        </form>
+    </div>
+    {% include "Dais/partials/footer.html" %}
+{% endblock content %}
+
