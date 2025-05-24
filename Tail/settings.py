@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Dais',
     'django.contrib.humanize',
+    'tailwind',
+    # 'theme',
    
 ]
 
@@ -130,3 +132,8 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+# NPM_BIN_PATH = "C:/Program Files/nodejs/npm.cmd"  # Adjust this path if necessary
+# TAILWIND_APP_NAME = 'theme'  # use the app name you created
+# INTERNAL_IPS = [
+#     '127.0.0.1',
+# ]

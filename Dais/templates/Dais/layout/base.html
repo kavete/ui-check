@@ -5,12 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{% endblock title %}</title>
-    <link rel="stylesheet"type="text/css" href="{% static 'css/daisyui@5.css' %} ">
-     <style type="text/tailwindcss">
-      @theme {
-        --color-clifford: #da373d;
-      }
-    </style>
+  
+    <link rel="stylesheet" type="text/css" href="{% static 'src/output.css' %}">
 </head>
 <body>
   
@@ -18,6 +14,6 @@
     
     {% endblock content %}
 
-    <script src="{% static "js/tailwind.js" %}"></script>
+  
 </body>
 </html>
