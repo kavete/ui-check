@@ -14,3 +14,9 @@ def modal(request):
 
 def flexbox(request):
     return render(request, 'Dais/flexing.html')
+
+def d_gray(request):
+    return render(request, 'Dais/d_gray.html')
+
+def acme_robots(request):
+    return render(request, 'Dais/acme-robots.html')

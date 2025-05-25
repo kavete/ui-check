@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.radial-blue {
+
+    background: radial-gradient(lightyellow, skyblue);
+}
