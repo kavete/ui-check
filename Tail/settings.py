@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Dais',
     'django.contrib.humanize',
-    'tailwind',
+    # 'tailwind',
     # 'theme',
    
 ]

@@ -7,6 +7,6 @@
     "watch:css": "npx @tailwindcss/cli -i ./assets/src/styles.css -o ./assets/src/output.css --watch"
   },
   "devDependencies": {
-    "daisyui": "^5.0.37"
+    "daisyui": "^5.0.43"
   }
 }
